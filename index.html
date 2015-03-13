@@ -1,0 +1,70 @@
+<!doctype html>
+<html manifest="cache.manifest">
+  <head>
+    <title>Monolith Burger Boy - Our Public Space Quest Pitch</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="apple-touch-icon" href="img/icon.png"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/add2home.css" type="text/css" rel="stylesheet" />
+    <script src="js/jquery-1.6.2.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/inventory.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/avatar.js"></script>
+    <script src="js/items.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/add2home.js"></script>
+  </head>
+  <body>
+    <div id="game">
+      <div id="cursor"></div>
+      <div id="avatar" class="hidden"></div>
+      <div id="dialog" class="hidden">
+        <div id="dialog-close"></div>
+        <div id="dialog-text"></div>
+      </div>
+      <div id="actions" class="hidden">
+        <div id="itemname"></div>
+        <div id="action-walk"></div>
+        <div id="action-look"></div>
+        <div id="action-do"></div>
+      </div>
+      <div id="screen0" class="screen">
+        <div class="layer backdrop"></div>
+        <div class="layer splash"></div>
+        <div class="text qpresents">Q42<br />presents</div>
+        <div class="text about">... an adventure game demo jammed together in html5 from scratch in under 16 hours by Two Guys From Q42: Martin Kool and Richard Lems...</div>
+      </div>
+      <div id="screen1" class="screen">
+        <div class="layer backdrop"></div>
+        <div class="layer monolith-burger"></div>
+        <div class="layer monolith-burger-glow"></div>
+        <div class="layer monolith-burger-front"></div>
+        <div class="layer monolith-burger-text"></div>
+        <div class="layer tube"></div>
+        <div class="layer food"></div>
+        <div class="layer light1"></div>
+        <div class="layer light2"></div>
+        <div class="layer glass"></div>
+        <div class="layer coat"></div>
+        <div class="layer door">
+          <div class="layer door-overlay"></div>
+          <div class="layer door-left"></div>
+          <div class="layer door-right"></div>
+        </div>
+        <div class="layer baydoor">
+          <div class="layer baydoor-overlay"></div>
+          <div class="layer baydoor-left"></div>
+          <div class="layer baydoor-right"></div>
+        </div>
+        <div class="layer tablet" data-frames="3"></div>
+      </div>
+
+      <div id="screen2" class="screen">
+        <div class="layer sketch"></div>
+      </div>
+
+    </div>
+  </body>
+</html>
